@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -28,7 +28,7 @@ header {
     padding: 40px;
     max-width: 250px;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 
 .title-dev {
@@ -42,7 +42,7 @@ span {
 
 .item-link {
     color: #9E9E9E;
-    padding: 12px 0px;
+    padding: 18px 0px;
     font-size: 1.10rem;
     font-weight: 500;
 }
@@ -192,4 +192,171 @@ main {
     border: none;
     background-color: #3D5AFE;
     color: #FFF;
+}
+
+i {
+    color: #ffffff;
+}
+
+.btn-box1 {
+    width: 110px;
+    background-color: #3D5AFE;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.btn-box2 {
+    width: 110px;
+    background-color: #3D5AFE;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.btn-sm {
+    margin: 6px 0px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3D5AFE;
+    color: #FFF;
+}
+
+.btn-md {
+    margin: 3px 0px;
+    cursor: pointer;
+    padding: 13px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3D5AFE;
+    color: #FFF;
+}
+
+.btn-lg {
+    cursor: pointer;
+    padding: 16px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3D5AFE;
+    color: #FFF;
+}
+
+.btn-default {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #a0a0a0;
+    color: #FFF;
+}
+
+.btn-primary {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3D5AFE;
+    color: #FFF;
+}
+
+.btn-secondary {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #585858;
+    color: #FFF;
+}
+
+.btn-danger {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f72e2e;
+    color: #FFF;
+}
+
+.btn-default1 {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #a0a0a0;
+    color: #FFF;
+}
+
+.btn-primary1 {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3D5AFE;
+    color: #FFF;
+}
+
+.btn-secondary1 {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #585858;
+    color: #FFF;
+}
+
+.btn-danger1 {
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f72e2e;
+    color: #FFF;
+}
+
+.html-buttons1 {
+    font-size: 0.75rem;
+    color: #6b6b6b;
+    padding: 20px 0px;
+}
+
+.btn-box-flex {
+    display: flex;
+    gap: 100px;
+}
+
+.btn-default1:hover {
+    background-color: #4F4F4F;
+}
+
+.btn-primary1:hover {
+    background-color: #0b29d4;
+}
+
+.btn-secondary1:hover {
+    background-color: #363636;
+}
+
+.btn-danger1:hover {
+    background-color: #c70a0a;
+}
+
+.link {
+    padding: 70px 0px;
+    font-size: .75rem;
+    color: #828282;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: #828282;
+}
+
+.name {
+    color: #000;
+    text-decoration: none;
 }

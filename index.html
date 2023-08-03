@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buttons</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -23,7 +26,7 @@
         </nav>
     </header>
 
-<!--                   main                       -->    
+    <!--                   main                       -->
 
     <main>
         <h1 class="title">Buttons</h1>
@@ -77,13 +80,74 @@
             <div class="items">
                 <div class="section-buttons">
                     <p class="html-buttons"> &lt;Button startIcon="local_grocery_store" /&gt; </p>
-                    <button class="btn-icon1">Default</button>
+                    <div class="btn-box1">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <button class="btn-icon2">Default</button>
+                    </div>
                 </div>
                 <div class="section-buttons">
                     <p class="html-hover-focus"> &lt;Button endIcon="local_grocery_store" /&gt; </p>
-                    <button class="btn-icon2">Default</button>
+                    <div class="btn-box2">
+                        <button class="btn-icon2">Default</button>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
                 </div>
             </div>
+            <div class="items">
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button size="sm" /&gt; </p>
+                    <button class="btn-sm">Default</button>
+                </div>
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button size="md" /&gt; </p>
+                    <button class="btn-md">Default</button>
+                </div>
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button size="lg" /&gt; </p>
+                    <button class="btn-lg">Default</button>
+                </div>
+            </div>
+            <div class="items">
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button color="default" /&gt; </p>
+                    <button class="btn-default">Default</button>
+                </div>
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button color="primary" /&gt; </p>
+                    <button class="btn-primary">Primary</button>
+                </div>
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button color="secondary" /&gt; </p>
+                    <button class="btn-secondary">Secondary</button>
+                </div>
+                <div class="section-buttons">
+                    <p class="html-buttons"> &lt;Button color="danger" /&gt; </p>
+                    <button class="btn-danger">Danger</button>
+                </div>
+            </div>
+            <div class="items1">
+                <p class="html-buttons1"> &lt;&:hover, &:focus /&gt; </p>
+                <div class="btn-box-flex">
+                    <div class="section-buttons">
+                        <button class="btn-default1">Default</button>
+                    </div>
+                    <div class="section-buttons">
+                        <button class="btn-primary1">Primary</button>
+                    </div>
+                    <div class="section-buttons">
+                        <button class="btn-secondary1">Secondary</button>
+                    </div>
+                    <div class="section-buttons">
+                        <button class="btn-danger1">Danger</button>
+                    </div>
+                </div>
+                </div>
+                <p class="link">Icons: https://material.io/resources/icons/?style=round</p>
+                <p class="copyright">
+                    created by 
+                    <a class="name" target="_blank" href="https://www.linkedin.com/in/s%C3%B3stenes-martins-336b491bb/">sóstenes</a> - 
+                    devChallenges.io
+                </p>
         </section>
     </main>
     <script src="main.js"></script>
